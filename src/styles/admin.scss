@@ -1,0 +1,24 @@
+:root {
+  --theme-bg: #1c212b;
+  --theme-input-bg: #1c212b;
+  --theme-text: #ececec /* Add other dark mode styles here */;
+  --theme-elevation-50: #161920; // Card background
+  --theme-elevation-100: #161920; // Card Hoverbackground
+  --theme-elevation-800: #ececec; // Input Text
+  --theme-elevation-150: #161920; // Create New Button Background
+  --font-serif: "Roboto", sans-serif !important;
+  .btn--style-primary {
+    background-color: var(--theme-elevation-150);
+  }
+  .list-controls__buttons-wrap .pill {
+    background-color: var(--theme-bg);
+  }
+  .nav-group__toggle:hover,
+  .nav-group__toggle:focus-visible {
+    color: #ffffff;
+  }
+  .file-field__file-mutation button,
+  .file-field__add-file-wrap button {
+    background-color: var(--theme-bg);
+  }
+}
